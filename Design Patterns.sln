@@ -3,17 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Single Responsibility", "SOLID Design Principles\Single Responsibility\Single Responsibility.csproj", "{726FE6E4-B895-485E-81C7-65D42EB377F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Single Responsibility", "SOLID Design Principles\Single Responsibility\Single Responsibility.csproj", "{726FE6E4-B895-485E-81C7-65D42EB377F8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID Design Principles", "SOLID Design Principles", "{7DF0A48B-419B-4710-B3BA-D87A5BD9551A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open-Closed", "SOLID Design Principles\Open-Closed\Open-Closed.csproj", "{74C944CD-BFCA-459D-8C72-5DB151BA224B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Open-Closed", "SOLID Design Principles\Open-Closed\Open-Closed.csproj", "{74C944CD-BFCA-459D-8C72-5DB151BA224B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liskov Substitution", "SOLID Design Principles\Liskov Substitution\Liskov Substitution.csproj", "{9AF2123A-0736-4DCF-BD52-E89A7DE189C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Liskov Substitution", "SOLID Design Principles\Liskov Substitution\Liskov Substitution.csproj", "{9AF2123A-0736-4DCF-BD52-E89A7DE189C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface Segregation", "SOLID Design Principles\Interface Segregation\Interface Segregation.csproj", "{652E3C30-8537-46F8-A3C9-B6498A699BA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface Segregation", "SOLID Design Principles\Interface Segregation\Interface Segregation.csproj", "{652E3C30-8537-46F8-A3C9-B6498A699BA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency Inversion", "SOLID Design Principles\Dependency Inversion\Dependency Inversion.csproj", "{B12309E4-0891-409F-9562-BE35FF6698F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dependency Inversion", "SOLID Design Principles\Dependency Inversion\Dependency Inversion.csproj", "{B12309E4-0891-409F-9562-BE35FF6698F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{1279F548-3245-47AF-A03F-136982438372}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilder", "Builder\FluentBuilder\FluentBuilder.csproj", "{524878D8-55A8-4A43-9303-C736B3D92E92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlBuilder", "Builder\HtmlBuilder\HtmlBuilder.csproj", "{29547DCB-E211-49BF-A1FB-FA6CB59DFA21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +47,14 @@ Global
 		{B12309E4-0891-409F-9562-BE35FF6698F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B12309E4-0891-409F-9562-BE35FF6698F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B12309E4-0891-409F-9562-BE35FF6698F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{524878D8-55A8-4A43-9303-C736B3D92E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524878D8-55A8-4A43-9303-C736B3D92E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524878D8-55A8-4A43-9303-C736B3D92E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524878D8-55A8-4A43-9303-C736B3D92E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29547DCB-E211-49BF-A1FB-FA6CB59DFA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29547DCB-E211-49BF-A1FB-FA6CB59DFA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29547DCB-E211-49BF-A1FB-FA6CB59DFA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29547DCB-E211-49BF-A1FB-FA6CB59DFA21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +65,8 @@ Global
 		{9AF2123A-0736-4DCF-BD52-E89A7DE189C3} = {7DF0A48B-419B-4710-B3BA-D87A5BD9551A}
 		{652E3C30-8537-46F8-A3C9-B6498A699BA9} = {7DF0A48B-419B-4710-B3BA-D87A5BD9551A}
 		{B12309E4-0891-409F-9562-BE35FF6698F3} = {7DF0A48B-419B-4710-B3BA-D87A5BD9551A}
+		{524878D8-55A8-4A43-9303-C736B3D92E92} = {1279F548-3245-47AF-A03F-136982438372}
+		{29547DCB-E211-49BF-A1FB-FA6CB59DFA21} = {1279F548-3245-47AF-A03F-136982438372}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
