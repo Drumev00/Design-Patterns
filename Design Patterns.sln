@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilder", "Builder\Fl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlBuilder", "Builder\HtmlBuilder\HtmlBuilder.csproj", "{29547DCB-E211-49BF-A1FB-FA6CB59DFA21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stepwise Builder", "Builder\Stepwise Builder\Stepwise Builder.csproj", "{FE979471-CA09-4AFC-AA8A-3807F167AD64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{29547DCB-E211-49BF-A1FB-FA6CB59DFA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29547DCB-E211-49BF-A1FB-FA6CB59DFA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29547DCB-E211-49BF-A1FB-FA6CB59DFA21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE979471-CA09-4AFC-AA8A-3807F167AD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE979471-CA09-4AFC-AA8A-3807F167AD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE979471-CA09-4AFC-AA8A-3807F167AD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE979471-CA09-4AFC-AA8A-3807F167AD64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{B12309E4-0891-409F-9562-BE35FF6698F3} = {7DF0A48B-419B-4710-B3BA-D87A5BD9551A}
 		{524878D8-55A8-4A43-9303-C736B3D92E92} = {1279F548-3245-47AF-A03F-136982438372}
 		{29547DCB-E211-49BF-A1FB-FA6CB59DFA21} = {1279F548-3245-47AF-A03F-136982438372}
+		{FE979471-CA09-4AFC-AA8A-3807F167AD64} = {1279F548-3245-47AF-A03F-136982438372}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
