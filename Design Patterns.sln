@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{C4E3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "Factory\FactoryMethod\FactoryMethod.csproj", "{10F5341A-64C2-4590-8555-ED1D641C8010}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncFactory", "Factory\AsyncFactory\AsyncFactory.csproj", "{023EA762-1CA7-4B99-8F87-C36F3300EA0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{10F5341A-64C2-4590-8555-ED1D641C8010}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10F5341A-64C2-4590-8555-ED1D641C8010}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10F5341A-64C2-4590-8555-ED1D641C8010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{023EA762-1CA7-4B99-8F87-C36F3300EA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{023EA762-1CA7-4B99-8F87-C36F3300EA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{023EA762-1CA7-4B99-8F87-C36F3300EA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{023EA762-1CA7-4B99-8F87-C36F3300EA0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,6 +110,7 @@ Global
 		{39330D8C-AB2A-4339-A745-7E859156808C} = {1279F548-3245-47AF-A03F-136982438372}
 		{635C1698-3D9F-4BF2-8C03-B811E53DABF4} = {1279F548-3245-47AF-A03F-136982438372}
 		{10F5341A-64C2-4590-8555-ED1D641C8010} = {C4E304E7-23C5-4319-8EE0-A1186E04F2A3}
+		{023EA762-1CA7-4B99-8F87-C36F3300EA0C} = {C4E304E7-23C5-4319-8EE0-A1186E04F2A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
