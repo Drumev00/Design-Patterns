@@ -24,6 +24,11 @@
 			this.y = y;
 		}
 
+		//public static Point Origin => new Point(0,0);
+
+		//// Singleton field
+		//public static Point Origin2 = new Point(0,0);
+
 		public override string ToString()
 		{
 			return $"{nameof(x)}: {x}, {nameof(y)}: {y}";
