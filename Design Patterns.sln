@@ -21,47 +21,49 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilder", "Builder\Fl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlBuilder", "Builder\HtmlBuilder\HtmlBuilder.csproj", "{29547DCB-E211-49BF-A1FB-FA6CB59DFA21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stepwise Builder", "Builder\Stepwise Builder\Stepwise Builder.csproj", "{FE979471-CA09-4AFC-AA8A-3807F167AD64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stepwise Builder", "Builder\Stepwise Builder\Stepwise Builder.csproj", "{FE979471-CA09-4AFC-AA8A-3807F167AD64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalBuilder", "Builder\FunctionalBuilder\FunctionalBuilder.csproj", "{962F23DF-5AD1-438C-A683-F622E6FFCFDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionalBuilder", "Builder\FunctionalBuilder\FunctionalBuilder.csproj", "{962F23DF-5AD1-438C-A683-F622E6FFCFDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacetedBuilder", "Builder\FacetedBuilder\FacetedBuilder.csproj", "{39330D8C-AB2A-4339-A745-7E859156808C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacetedBuilder", "Builder\FacetedBuilder\FacetedBuilder.csproj", "{39330D8C-AB2A-4339-A745-7E859156808C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderExercise", "Builder\BuilderExercise\BuilderExercise.csproj", "{635C1698-3D9F-4BF2-8C03-B811E53DABF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderExercise", "Builder\BuilderExercise\BuilderExercise.csproj", "{635C1698-3D9F-4BF2-8C03-B811E53DABF4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{C4E304E7-23C5-4319-8EE0-A1186E04F2A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "Factory\FactoryMethod\FactoryMethod.csproj", "{10F5341A-64C2-4590-8555-ED1D641C8010}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "Factory\FactoryMethod\FactoryMethod.csproj", "{10F5341A-64C2-4590-8555-ED1D641C8010}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncFactory", "Factory\AsyncFactory\AsyncFactory.csproj", "{023EA762-1CA7-4B99-8F87-C36F3300EA0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncFactory", "Factory\AsyncFactory\AsyncFactory.csproj", "{023EA762-1CA7-4B99-8F87-C36F3300EA0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object Tracking And Bulk Replacement", "Factory\Object Tracking And Bulk Replacement\Object Tracking And Bulk Replacement.csproj", "{BF8CBE93-55CF-4086-AAD1-70BD5D171868}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Object Tracking And Bulk Replacement", "Factory\Object Tracking And Bulk Replacement\Object Tracking And Bulk Replacement.csproj", "{BF8CBE93-55CF-4086-AAD1-70BD5D171868}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Factory\AbstractFactory\AbstractFactory.csproj", "{FC4FE6EE-C523-47DC-B2A7-CC6E82CB7BC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "Factory\AbstractFactory\AbstractFactory.csproj", "{FC4FE6EE-C523-47DC-B2A7-CC6E82CB7BC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryExercise", "Factory\FactoryExercise\FactoryExercise.csproj", "{6511C1C8-951E-4206-B8E0-0C8DC68A79A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryExercise", "Factory\FactoryExercise\FactoryExercise.csproj", "{6511C1C8-951E-4206-B8E0-0C8DC68A79A6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{7FE6510F-06AA-4012-8575-5F510675D20F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype\Prototype.csproj", "{2B2C2F7E-B66C-40D2-A5A5-16E8DF780389}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype\Prototype.csproj", "{2B2C2F7E-B66C-40D2-A5A5-16E8DF780389}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeInheritance", "Prototype\PrototypeInheritance\PrototypeInheritance.csproj", "{BA653545-6F95-49C8-A5F8-7E7DC01D5DC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypeInheritance", "Prototype\PrototypeInheritance\PrototypeInheritance.csproj", "{BA653545-6F95-49C8-A5F8-7E7DC01D5DC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeExercise", "Prototype\PrototypeExercise\PrototypeExercise.csproj", "{3D2B7AFE-630C-4BC6-B20C-6326F93FD5E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypeExercise", "Prototype\PrototypeExercise\PrototypeExercise.csproj", "{3D2B7AFE-630C-4BC6-B20C-6326F93FD5E4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{C96D3D17-9FA5-4F9E-ABCD-9C0C369CC3F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonImplementation", "Singleton\SingletonImplementation\SingletonImplementation.csproj", "{D54E70D9-2BCF-4F46-9B9D-77FC48E6F110}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonImplementation", "Singleton\SingletonImplementation\SingletonImplementation.csproj", "{D54E70D9-2BCF-4F46-9B9D-77FC48E6F110}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monostate", "Singleton\Monostate\Monostate.csproj", "{F04EFAA7-DCF9-4AFD-9B77-317F7AAC2472}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monostate", "Singleton\Monostate\Monostate.csproj", "{F04EFAA7-DCF9-4AFD-9B77-317F7AAC2472}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerThreadSingleton", "Singleton\PerThreadSingleton\PerThreadSingleton.csproj", "{B968847A-BB92-46EE-A8C4-B119F0DD72E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerThreadSingleton", "Singleton\PerThreadSingleton\PerThreadSingleton.csproj", "{B968847A-BB92-46EE-A8C4-B119F0DD72E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmbientContext", "Singleton\AmbientContext\AmbientContext.csproj", "{30222B8B-1268-46DB-B4B7-286C067A7C84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmbientContext", "Singleton\AmbientContext\AmbientContext.csproj", "{30222B8B-1268-46DB-B4B7-286C067A7C84}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{E1DFE9E7-BB81-4AB7-93C3-1793F222D392}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorAndRasterDemo", "Adapter\VectorAndRasterDemo\VectorAndRasterDemo.csproj", "{C215238B-4082-4D7E-B18F-278CE7176AEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VectorAndRasterDemo", "Adapter\VectorAndRasterDemo\VectorAndRasterDemo.csproj", "{C215238B-4082-4D7E-B18F-278CE7176AEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIAdapter", "Adapter\DIAdapter\DIAdapter.csproj", "{EB3ED159-C53D-4C10-892E-14D1051516C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{C215238B-4082-4D7E-B18F-278CE7176AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C215238B-4082-4D7E-B18F-278CE7176AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C215238B-4082-4D7E-B18F-278CE7176AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3ED159-C53D-4C10-892E-14D1051516C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3ED159-C53D-4C10-892E-14D1051516C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3ED159-C53D-4C10-892E-14D1051516C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3ED159-C53D-4C10-892E-14D1051516C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -194,6 +200,7 @@ Global
 		{B968847A-BB92-46EE-A8C4-B119F0DD72E8} = {C96D3D17-9FA5-4F9E-ABCD-9C0C369CC3F8}
 		{30222B8B-1268-46DB-B4B7-286C067A7C84} = {C96D3D17-9FA5-4F9E-ABCD-9C0C369CC3F8}
 		{C215238B-4082-4D7E-B18F-278CE7176AEE} = {E1DFE9E7-BB81-4AB7-93C3-1793F222D392}
+		{EB3ED159-C53D-4C10-892E-14D1051516C6} = {E1DFE9E7-BB81-4AB7-93C3-1793F222D392}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
