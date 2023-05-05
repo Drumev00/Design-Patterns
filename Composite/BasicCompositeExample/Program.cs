@@ -12,14 +12,4 @@ containers.Add(v2);
 containers.Add(v3);
 containers.Add(v4);
 
-var result = 0;
-
-foreach (var container in containers)
-{
-	foreach (var item in container)
-	{
-		result += item;
-	}
-}
-
-Console.WriteLine(result);
+Console.WriteLine(containers.Sum());
