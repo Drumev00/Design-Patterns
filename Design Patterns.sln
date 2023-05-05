@@ -65,6 +65,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VectorAndRasterDemo", "Adap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIAdapter", "Adapter\DIAdapter\DIAdapter.csproj", "{EB3ED159-C53D-4C10-892E-14D1051516C6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge", "Bridge", "{2211BC8B-7217-4F9E-B88D-FB7B2E377242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "Bridge\BridgePattern\BridgePattern.csproj", "{5DB7C95B-9205-40C7-9BC8-8213EA8F7BFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +175,10 @@ Global
 		{EB3ED159-C53D-4C10-892E-14D1051516C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB3ED159-C53D-4C10-892E-14D1051516C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB3ED159-C53D-4C10-892E-14D1051516C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB7C95B-9205-40C7-9BC8-8213EA8F7BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB7C95B-9205-40C7-9BC8-8213EA8F7BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB7C95B-9205-40C7-9BC8-8213EA8F7BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB7C95B-9205-40C7-9BC8-8213EA8F7BFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -201,6 +209,7 @@ Global
 		{30222B8B-1268-46DB-B4B7-286C067A7C84} = {C96D3D17-9FA5-4F9E-ABCD-9C0C369CC3F8}
 		{C215238B-4082-4D7E-B18F-278CE7176AEE} = {E1DFE9E7-BB81-4AB7-93C3-1793F222D392}
 		{EB3ED159-C53D-4C10-892E-14D1051516C6} = {E1DFE9E7-BB81-4AB7-93C3-1793F222D392}
+		{5DB7C95B-9205-40C7-9BC8-8213EA8F7BFF} = {2211BC8B-7217-4F9E-B88D-FB7B2E377242}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
