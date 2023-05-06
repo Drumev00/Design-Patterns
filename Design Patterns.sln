@@ -83,6 +83,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomStringBuilder", "Deco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter-Decorator", "Decorator\Adapter-Decorator\Adapter-Decorator.csproj", "{34652167-3F26-46FA-9B14-A2C9E8D384FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleInterfaceInheritance", "Decorator\MultipleInterfaceInheritance\MultipleInterfaceInheritance.csproj", "{2A43D2CB-7953-41E3-B825-69BA09EC091D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{34652167-3F26-46FA-9B14-A2C9E8D384FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34652167-3F26-46FA-9B14-A2C9E8D384FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34652167-3F26-46FA-9B14-A2C9E8D384FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A43D2CB-7953-41E3-B825-69BA09EC091D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A43D2CB-7953-41E3-B825-69BA09EC091D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A43D2CB-7953-41E3-B825-69BA09EC091D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A43D2CB-7953-41E3-B825-69BA09EC091D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -249,6 +255,7 @@ Global
 		{85688A25-6D96-4755-910C-43B5D88F1B75} = {9C0BFCD5-0D4D-400E-9519-6420685C5A38}
 		{76D05CB8-6621-40F3-95C1-6913DD6C4FE6} = {500D6C13-9FD9-4B10-A5CF-33E1DA550284}
 		{34652167-3F26-46FA-9B14-A2C9E8D384FC} = {500D6C13-9FD9-4B10-A5CF-33E1DA550284}
+		{2A43D2CB-7953-41E3-B825-69BA09EC091D} = {500D6C13-9FD9-4B10-A5CF-33E1DA550284}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
