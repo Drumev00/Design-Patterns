@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter-Decorator", "Decora
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleInterfaceInheritance", "Decorator\MultipleInterfaceInheritance\MultipleInterfaceInheritance.csproj", "{2A43D2CB-7953-41E3-B825-69BA09EC091D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiple-Inheritance-With-Default-Interface-Members", "Decorator\Multiple-Inheritance-With-Default-Interface-Members\Multiple-Inheritance-With-Default-Interface-Members.csproj", "{C84D7754-B4F2-4730-B3ED-F832D8AFCE8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +221,10 @@ Global
 		{2A43D2CB-7953-41E3-B825-69BA09EC091D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A43D2CB-7953-41E3-B825-69BA09EC091D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A43D2CB-7953-41E3-B825-69BA09EC091D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C84D7754-B4F2-4730-B3ED-F832D8AFCE8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84D7754-B4F2-4730-B3ED-F832D8AFCE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84D7754-B4F2-4730-B3ED-F832D8AFCE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84D7754-B4F2-4730-B3ED-F832D8AFCE8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -256,6 +262,7 @@ Global
 		{76D05CB8-6621-40F3-95C1-6913DD6C4FE6} = {500D6C13-9FD9-4B10-A5CF-33E1DA550284}
 		{34652167-3F26-46FA-9B14-A2C9E8D384FC} = {500D6C13-9FD9-4B10-A5CF-33E1DA550284}
 		{2A43D2CB-7953-41E3-B825-69BA09EC091D} = {500D6C13-9FD9-4B10-A5CF-33E1DA550284}
+		{C84D7754-B4F2-4730-B3ED-F832D8AFCE8A} = {500D6C13-9FD9-4B10-A5CF-33E1DA550284}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
