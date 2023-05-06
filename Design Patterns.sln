@@ -63,23 +63,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{E1DF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VectorAndRasterDemo", "Adapter\VectorAndRasterDemo\VectorAndRasterDemo.csproj", "{C215238B-4082-4D7E-B18F-278CE7176AEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIAdapter", "Adapter\DIAdapter\DIAdapter.csproj", "{EB3ED159-C53D-4C10-892E-14D1051516C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DIAdapter", "Adapter\DIAdapter\DIAdapter.csproj", "{EB3ED159-C53D-4C10-892E-14D1051516C6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge", "Bridge", "{2211BC8B-7217-4F9E-B88D-FB7B2E377242}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "Bridge\BridgePattern\BridgePattern.csproj", "{5DB7C95B-9205-40C7-9BC8-8213EA8F7BFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "Bridge\BridgePattern\BridgePattern.csproj", "{5DB7C95B-9205-40C7-9BC8-8213EA8F7BFF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite", "Composite", "{9C0BFCD5-0D4D-400E-9519-6420685C5A38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricShapes", "Composite\GeometricShapes\GeometricShapes.csproj", "{EF6F5E68-9A9C-4F0B-8734-4CAD15E4FED5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometricShapes", "Composite\GeometricShapes\GeometricShapes.csproj", "{EF6F5E68-9A9C-4F0B-8734-4CAD15E4FED5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetworks", "Composite\NeuralNetworks\NeuralNetworks.csproj", "{E3DF8D37-66C5-4735-84EF-BA7C5B7EBC24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeuralNetworks", "Composite\NeuralNetworks\NeuralNetworks.csproj", "{E3DF8D37-66C5-4735-84EF-BA7C5B7EBC24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCompositeExample", "Composite\BasicCompositeExample\BasicCompositeExample.csproj", "{85688A25-6D96-4755-910C-43B5D88F1B75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicCompositeExample", "Composite\BasicCompositeExample\BasicCompositeExample.csproj", "{85688A25-6D96-4755-910C-43B5D88F1B75}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{500D6C13-9FD9-4B10-A5CF-33E1DA550284}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomStringBuilder", "Decorator\CustomStringBuilder\CustomStringBuilder.csproj", "{76D05CB8-6621-40F3-95C1-6913DD6C4FE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter-Decorator", "Decorator\Adapter-Decorator\Adapter-Decorator.csproj", "{34652167-3F26-46FA-9B14-A2C9E8D384FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +209,10 @@ Global
 		{76D05CB8-6621-40F3-95C1-6913DD6C4FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76D05CB8-6621-40F3-95C1-6913DD6C4FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76D05CB8-6621-40F3-95C1-6913DD6C4FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34652167-3F26-46FA-9B14-A2C9E8D384FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34652167-3F26-46FA-9B14-A2C9E8D384FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34652167-3F26-46FA-9B14-A2C9E8D384FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34652167-3F26-46FA-9B14-A2C9E8D384FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -242,6 +248,7 @@ Global
 		{E3DF8D37-66C5-4735-84EF-BA7C5B7EBC24} = {9C0BFCD5-0D4D-400E-9519-6420685C5A38}
 		{85688A25-6D96-4755-910C-43B5D88F1B75} = {9C0BFCD5-0D4D-400E-9519-6420685C5A38}
 		{76D05CB8-6621-40F3-95C1-6913DD6C4FE6} = {500D6C13-9FD9-4B10-A5CF-33E1DA550284}
+		{34652167-3F26-46FA-9B14-A2C9E8D384FC} = {500D6C13-9FD9-4B10-A5CF-33E1DA550284}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
