@@ -2,7 +2,7 @@
 
 namespace MultipleInterfaceInheritance
 {
-	internal class Dragon : IBird, ILizard
+    internal class Dragon : IBird, ILizard
 	{
 		private readonly Bird _bird = new();
 		private readonly Lizard _lizard = new();

@@ -1,8 +1,10 @@
-﻿namespace MultipleInterfaceInheritance.Abstractions
+﻿using MultipleInterfaceInheritance.Abstractions;
+
+namespace MultipleInterfaceInheritance
 {
     internal class Lizard : ILizard
     {
-	    public int Weight { get; set; }
+        public int Weight { get; set; }
 
         public void Crawl()
         {
