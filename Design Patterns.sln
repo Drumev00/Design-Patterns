@@ -97,6 +97,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flyweight", "Flyweight", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatingUsernames", "Flyweight\RepeatingUsernames\RepeatingUsernames.csproj", "{01E1BED5-783D-4C43-83A5-1DED04BA1599}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFormatting", "Flyweight\TextFormatting\TextFormatting.csproj", "{E2678D81-D6C7-4228-A853-C913CCDB1982}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -251,6 +253,10 @@ Global
 		{01E1BED5-783D-4C43-83A5-1DED04BA1599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01E1BED5-783D-4C43-83A5-1DED04BA1599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01E1BED5-783D-4C43-83A5-1DED04BA1599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2678D81-D6C7-4228-A853-C913CCDB1982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2678D81-D6C7-4228-A853-C913CCDB1982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2678D81-D6C7-4228-A853-C913CCDB1982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2678D81-D6C7-4228-A853-C913CCDB1982}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -293,6 +299,7 @@ Global
 		{395438A4-1102-4B09-B1CC-06142FDD6535} = {500D6C13-9FD9-4B10-A5CF-33E1DA550284}
 		{0D02762C-5EB0-467A-907A-E5E2D8E4BD63} = {500D6C13-9FD9-4B10-A5CF-33E1DA550284}
 		{01E1BED5-783D-4C43-83A5-1DED04BA1599} = {C9DB30E9-A61F-471C-9AAB-428A3B1C3A12}
+		{E2678D81-D6C7-4228-A853-C913CCDB1982} = {C9DB30E9-A61F-471C-9AAB-428A3B1C3A12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
