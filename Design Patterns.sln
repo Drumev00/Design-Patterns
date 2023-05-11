@@ -109,6 +109,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyProxy", "Proxy\Prop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueProxy", "Proxy\ValueProxy\ValueProxy.csproj", "{D578171C-F827-45A7-8C49-B959934796F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeProxy-AoS-or-SoA", "Proxy\CompositeProxy-AoS-or-SoA\CompositeProxy-AoS-or-SoA.csproj", "{5FB6AC2A-23FA-4A95-8A37-9837B0366626}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -283,6 +285,10 @@ Global
 		{D578171C-F827-45A7-8C49-B959934796F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D578171C-F827-45A7-8C49-B959934796F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D578171C-F827-45A7-8C49-B959934796F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB6AC2A-23FA-4A95-8A37-9837B0366626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB6AC2A-23FA-4A95-8A37-9837B0366626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB6AC2A-23FA-4A95-8A37-9837B0366626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB6AC2A-23FA-4A95-8A37-9837B0366626}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -330,6 +336,7 @@ Global
 		{396207D7-E964-4725-AAD6-A0EB973C49BB} = {DC9B2F39-36E1-410E-910C-AF9C0F7EB3CF}
 		{48ADFEDF-4C79-42A2-A0C6-BC7DD696C1A9} = {DC9B2F39-36E1-410E-910C-AF9C0F7EB3CF}
 		{D578171C-F827-45A7-8C49-B959934796F9} = {DC9B2F39-36E1-410E-910C-AF9C0F7EB3CF}
+		{5FB6AC2A-23FA-4A95-8A37-9837B0366626} = {DC9B2F39-36E1-410E-910C-AF9C0F7EB3CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
