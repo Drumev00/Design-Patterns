@@ -105,6 +105,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{DC9B2F39
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtectionProxy", "Proxy\ProtectionProxy\ProtectionProxy.csproj", "{396207D7-E964-4725-AAD6-A0EB973C49BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyProxy", "Proxy\PropertyProxy\PropertyProxy.csproj", "{48ADFEDF-4C79-42A2-A0C6-BC7DD696C1A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -271,6 +273,10 @@ Global
 		{396207D7-E964-4725-AAD6-A0EB973C49BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{396207D7-E964-4725-AAD6-A0EB973C49BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{396207D7-E964-4725-AAD6-A0EB973C49BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48ADFEDF-4C79-42A2-A0C6-BC7DD696C1A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48ADFEDF-4C79-42A2-A0C6-BC7DD696C1A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48ADFEDF-4C79-42A2-A0C6-BC7DD696C1A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48ADFEDF-4C79-42A2-A0C6-BC7DD696C1A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -316,6 +322,7 @@ Global
 		{E2678D81-D6C7-4228-A853-C913CCDB1982} = {C9DB30E9-A61F-471C-9AAB-428A3B1C3A12}
 		{7B735931-E8AA-4053-93DD-24D64151C8B5} = {C9DB30E9-A61F-471C-9AAB-428A3B1C3A12}
 		{396207D7-E964-4725-AAD6-A0EB973C49BB} = {DC9B2F39-36E1-410E-910C-AF9C0F7EB3CF}
+		{48ADFEDF-4C79-42A2-A0C6-BC7DD696C1A9} = {DC9B2F39-36E1-410E-910C-AF9C0F7EB3CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
