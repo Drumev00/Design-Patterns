@@ -81,37 +81,39 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomStringBuilder", "Decorator\CustomStringBuilder\CustomStringBuilder.csproj", "{76D05CB8-6621-40F3-95C1-6913DD6C4FE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter-Decorator", "Decorator\Adapter-Decorator\Adapter-Decorator.csproj", "{34652167-3F26-46FA-9B14-A2C9E8D384FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter-Decorator", "Decorator\Adapter-Decorator\Adapter-Decorator.csproj", "{34652167-3F26-46FA-9B14-A2C9E8D384FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleInterfaceInheritance", "Decorator\MultipleInterfaceInheritance\MultipleInterfaceInheritance.csproj", "{2A43D2CB-7953-41E3-B825-69BA09EC091D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleInterfaceInheritance", "Decorator\MultipleInterfaceInheritance\MultipleInterfaceInheritance.csproj", "{2A43D2CB-7953-41E3-B825-69BA09EC091D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiple-Inheritance-With-Default-Interface-Members", "Decorator\Multiple-Inheritance-With-Default-Interface-Members\Multiple-Inheritance-With-Default-Interface-Members.csproj", "{C84D7754-B4F2-4730-B3ED-F832D8AFCE8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiple-Inheritance-With-Default-Interface-Members", "Decorator\Multiple-Inheritance-With-Default-Interface-Members\Multiple-Inheritance-With-Default-Interface-Members.csproj", "{C84D7754-B4F2-4730-B3ED-F832D8AFCE8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicDecoratorComposition", "Decorator\DynamicDecoratorComposition\DynamicDecoratorComposition.csproj", "{3E020983-377E-42AF-BFE7-F36FAFB4C31C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicDecoratorComposition", "Decorator\DynamicDecoratorComposition\DynamicDecoratorComposition.csproj", "{3E020983-377E-42AF-BFE7-F36FAFB4C31C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticDecoratorComposition", "Decorator\StaticDecoratorComposition\StaticDecoratorComposition.csproj", "{395438A4-1102-4B09-B1CC-06142FDD6535}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticDecoratorComposition", "Decorator\StaticDecoratorComposition\StaticDecoratorComposition.csproj", "{395438A4-1102-4B09-B1CC-06142FDD6535}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIDecorator", "Decorator\DIDecorator\DIDecorator.csproj", "{0D02762C-5EB0-467A-907A-E5E2D8E4BD63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DIDecorator", "Decorator\DIDecorator\DIDecorator.csproj", "{0D02762C-5EB0-467A-907A-E5E2D8E4BD63}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flyweight", "Flyweight", "{C9DB30E9-A61F-471C-9AAB-428A3B1C3A12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatingUsernames", "Flyweight\RepeatingUsernames\RepeatingUsernames.csproj", "{01E1BED5-783D-4C43-83A5-1DED04BA1599}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepeatingUsernames", "Flyweight\RepeatingUsernames\RepeatingUsernames.csproj", "{01E1BED5-783D-4C43-83A5-1DED04BA1599}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFormatting", "Flyweight\TextFormatting\TextFormatting.csproj", "{E2678D81-D6C7-4228-A853-C913CCDB1982}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextFormatting", "Flyweight\TextFormatting\TextFormatting.csproj", "{E2678D81-D6C7-4228-A853-C913CCDB1982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightExercise", "Flyweight\FlyweightExercise\FlyweightExercise.csproj", "{7B735931-E8AA-4053-93DD-24D64151C8B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyweightExercise", "Flyweight\FlyweightExercise\FlyweightExercise.csproj", "{7B735931-E8AA-4053-93DD-24D64151C8B5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{DC9B2F39-36E1-410E-910C-AF9C0F7EB3CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtectionProxy", "Proxy\ProtectionProxy\ProtectionProxy.csproj", "{396207D7-E964-4725-AAD6-A0EB973C49BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProtectionProxy", "Proxy\ProtectionProxy\ProtectionProxy.csproj", "{396207D7-E964-4725-AAD6-A0EB973C49BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyProxy", "Proxy\PropertyProxy\PropertyProxy.csproj", "{48ADFEDF-4C79-42A2-A0C6-BC7DD696C1A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyProxy", "Proxy\PropertyProxy\PropertyProxy.csproj", "{48ADFEDF-4C79-42A2-A0C6-BC7DD696C1A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueProxy", "Proxy\ValueProxy\ValueProxy.csproj", "{D578171C-F827-45A7-8C49-B959934796F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueProxy", "Proxy\ValueProxy\ValueProxy.csproj", "{D578171C-F827-45A7-8C49-B959934796F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeProxy-AoS-or-SoA", "Proxy\CompositeProxy-AoS-or-SoA\CompositeProxy-AoS-or-SoA.csproj", "{5FB6AC2A-23FA-4A95-8A37-9837B0366626}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeProxy-AoS-or-SoA", "Proxy\CompositeProxy-AoS-or-SoA\CompositeProxy-AoS-or-SoA.csproj", "{5FB6AC2A-23FA-4A95-8A37-9837B0366626}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeProxy-With-Array-Backed-Properties", "Proxy\CompositeProxy-With-Array-Backed-Properties\CompositeProxy-With-Array-Backed-Properties.csproj", "{3CB66C25-EE7A-4E45-ADF6-0AED586C87E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeProxy-With-Array-Backed-Properties", "Proxy\CompositeProxy-With-Array-Backed-Properties\CompositeProxy-With-Array-Backed-Properties.csproj", "{3CB66C25-EE7A-4E45-ADF6-0AED586C87E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "Proxy\ViewModel\ViewModel.csproj", "{E38B4835-942F-4084-A5DD-824430FAA2DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -295,6 +297,10 @@ Global
 		{3CB66C25-EE7A-4E45-ADF6-0AED586C87E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CB66C25-EE7A-4E45-ADF6-0AED586C87E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CB66C25-EE7A-4E45-ADF6-0AED586C87E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E38B4835-942F-4084-A5DD-824430FAA2DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E38B4835-942F-4084-A5DD-824430FAA2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E38B4835-942F-4084-A5DD-824430FAA2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E38B4835-942F-4084-A5DD-824430FAA2DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -344,6 +350,7 @@ Global
 		{D578171C-F827-45A7-8C49-B959934796F9} = {DC9B2F39-36E1-410E-910C-AF9C0F7EB3CF}
 		{5FB6AC2A-23FA-4A95-8A37-9837B0366626} = {DC9B2F39-36E1-410E-910C-AF9C0F7EB3CF}
 		{3CB66C25-EE7A-4E45-ADF6-0AED586C87E6} = {DC9B2F39-36E1-410E-910C-AF9C0F7EB3CF}
+		{E38B4835-942F-4084-A5DD-824430FAA2DF} = {DC9B2F39-36E1-410E-910C-AF9C0F7EB3CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
