@@ -119,6 +119,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chain of Responsibility", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodChain", "Chain of Responsibility\MethodChain\MethodChain.csproj", "{03C19998-0B17-4D37-BE37-7009A2A8DE1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokerChain", "Chain of Responsibility\BrokerChain\BrokerChain.csproj", "{C7ADD191-1064-412E-A39F-B26247678B2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -309,6 +311,10 @@ Global
 		{03C19998-0B17-4D37-BE37-7009A2A8DE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03C19998-0B17-4D37-BE37-7009A2A8DE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03C19998-0B17-4D37-BE37-7009A2A8DE1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7ADD191-1064-412E-A39F-B26247678B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7ADD191-1064-412E-A39F-B26247678B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7ADD191-1064-412E-A39F-B26247678B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7ADD191-1064-412E-A39F-B26247678B2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -360,6 +366,7 @@ Global
 		{3CB66C25-EE7A-4E45-ADF6-0AED586C87E6} = {DC9B2F39-36E1-410E-910C-AF9C0F7EB3CF}
 		{E38B4835-942F-4084-A5DD-824430FAA2DF} = {DC9B2F39-36E1-410E-910C-AF9C0F7EB3CF}
 		{03C19998-0B17-4D37-BE37-7009A2A8DE1D} = {F3759490-DD90-40CB-9534-529256B13C3D}
+		{C7ADD191-1064-412E-A39F-B26247678B2D} = {F3759490-DD90-40CB-9534-529256B13C3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
