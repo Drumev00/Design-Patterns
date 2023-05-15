@@ -133,6 +133,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandmadeInterpreter-Lexing"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandmadeInterpreter-Parsing", "Interpreter\HandmadeInterpreter-Parsing\HandmadeInterpreter-Parsing.csproj", "{D5C99209-3D2D-42C4-B649-21AA0BE25A9A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Iterator", "Iterator", "{E73973E2-6CE5-4A27-8AD7-F787FEBE259D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorObject", "Iterator\IteratorObject\IteratorObject.csproj", "{2C927194-8F48-448E-A8D3-07E68A5DCAF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -343,6 +347,10 @@ Global
 		{D5C99209-3D2D-42C4-B649-21AA0BE25A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5C99209-3D2D-42C4-B649-21AA0BE25A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5C99209-3D2D-42C4-B649-21AA0BE25A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C927194-8F48-448E-A8D3-07E68A5DCAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C927194-8F48-448E-A8D3-07E68A5DCAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C927194-8F48-448E-A8D3-07E68A5DCAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C927194-8F48-448E-A8D3-07E68A5DCAF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -399,6 +407,7 @@ Global
 		{7540B41F-45C2-4361-BFA7-159A1773B4D2} = {E36DEC55-5A61-485C-9BF3-B9BB0ACF604F}
 		{DAC8A296-1314-45B8-A288-73ACA1A18C77} = {939AB87B-AD3A-4EDB-82ED-B13E5CE1B326}
 		{D5C99209-3D2D-42C4-B649-21AA0BE25A9A} = {939AB87B-AD3A-4EDB-82ED-B13E5CE1B326}
+		{2C927194-8F48-448E-A8D3-07E68A5DCAF7} = {E73973E2-6CE5-4A27-8AD7-F787FEBE259D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
