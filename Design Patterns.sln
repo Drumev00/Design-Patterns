@@ -137,6 +137,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Iterator", "Iterator", "{E7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorObject", "Iterator\IteratorObject\IteratorObject.csproj", "{2C927194-8F48-448E-A8D3-07E68A5DCAF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorMethod", "Iterator\IteratorMethod\IteratorMethod.csproj", "{D513D1C9-844E-48DB-ACF1-5471F526899E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -351,6 +353,10 @@ Global
 		{2C927194-8F48-448E-A8D3-07E68A5DCAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C927194-8F48-448E-A8D3-07E68A5DCAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C927194-8F48-448E-A8D3-07E68A5DCAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D513D1C9-844E-48DB-ACF1-5471F526899E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D513D1C9-844E-48DB-ACF1-5471F526899E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D513D1C9-844E-48DB-ACF1-5471F526899E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D513D1C9-844E-48DB-ACF1-5471F526899E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -408,6 +414,7 @@ Global
 		{DAC8A296-1314-45B8-A288-73ACA1A18C77} = {939AB87B-AD3A-4EDB-82ED-B13E5CE1B326}
 		{D5C99209-3D2D-42C4-B649-21AA0BE25A9A} = {939AB87B-AD3A-4EDB-82ED-B13E5CE1B326}
 		{2C927194-8F48-448E-A8D3-07E68A5DCAF7} = {E73973E2-6CE5-4A27-8AD7-F787FEBE259D}
+		{D513D1C9-844E-48DB-ACF1-5471F526899E} = {E73973E2-6CE5-4A27-8AD7-F787FEBE259D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
