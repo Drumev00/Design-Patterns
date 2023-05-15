@@ -127,6 +127,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "Command\C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndoOperations", "Command\UndoOperations\UndoOperations.csproj", "{7540B41F-45C2-4361-BFA7-159A1773B4D2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interpreter", "Interpreter", "{939AB87B-AD3A-4EDB-82ED-B13E5CE1B326}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandmadeInterpreter-Lexing", "Interpreter\HandmadeInterpreter-Lexing\HandmadeInterpreter-Lexing.csproj", "{DAC8A296-1314-45B8-A288-73ACA1A18C77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -329,6 +333,10 @@ Global
 		{7540B41F-45C2-4361-BFA7-159A1773B4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7540B41F-45C2-4361-BFA7-159A1773B4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7540B41F-45C2-4361-BFA7-159A1773B4D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC8A296-1314-45B8-A288-73ACA1A18C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC8A296-1314-45B8-A288-73ACA1A18C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC8A296-1314-45B8-A288-73ACA1A18C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC8A296-1314-45B8-A288-73ACA1A18C77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -383,6 +391,7 @@ Global
 		{C7ADD191-1064-412E-A39F-B26247678B2D} = {F3759490-DD90-40CB-9534-529256B13C3D}
 		{0537DFE1-E264-4E8F-9632-5B7563EC5438} = {E36DEC55-5A61-485C-9BF3-B9BB0ACF604F}
 		{7540B41F-45C2-4361-BFA7-159A1773B4D2} = {E36DEC55-5A61-485C-9BF3-B9BB0ACF604F}
+		{DAC8A296-1314-45B8-A288-73ACA1A18C77} = {939AB87B-AD3A-4EDB-82ED-B13E5CE1B326}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
