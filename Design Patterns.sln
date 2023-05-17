@@ -155,6 +155,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoExample", "Memento\M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndoAndRedo", "Memento\UndoAndRedo\UndoAndRedo.csproj", "{B1997C89-B7DE-4396-B67E-D79B016FE07D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Null Object", "Null Object", "{397E0BE1-DE1C-43DA-8356-BF162AA40F54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObjectExample", "Null Object\NullObjectExample\NullObjectExample.csproj", "{D707598F-EC50-43ED-86AC-EAF0CBD6A130}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -397,6 +401,10 @@ Global
 		{B1997C89-B7DE-4396-B67E-D79B016FE07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1997C89-B7DE-4396-B67E-D79B016FE07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1997C89-B7DE-4396-B67E-D79B016FE07D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D707598F-EC50-43ED-86AC-EAF0CBD6A130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D707598F-EC50-43ED-86AC-EAF0CBD6A130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D707598F-EC50-43ED-86AC-EAF0CBD6A130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D707598F-EC50-43ED-86AC-EAF0CBD6A130}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -461,6 +469,7 @@ Global
 		{C3E8063C-1609-4050-95AC-957A543A8222} = {6108DEEF-72C4-4DEB-8213-89017FFE23E4}
 		{66845AA2-67A4-4D13-954E-EBC1815F9C8A} = {75A973A9-81E6-4EDF-B3ED-E2598F9B16CE}
 		{B1997C89-B7DE-4396-B67E-D79B016FE07D} = {75A973A9-81E6-4EDF-B3ED-E2598F9B16CE}
+		{D707598F-EC50-43ED-86AC-EAF0CBD6A130} = {397E0BE1-DE1C-43DA-8356-BF162AA40F54}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
