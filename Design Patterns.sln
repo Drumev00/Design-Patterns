@@ -169,6 +169,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialInterfacesObserver",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObservableCollections", "Observer\ObservableCollections\ObservableCollections.csproj", "{029A45FA-5FC7-4986-9C4D-B78970EA2913}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BidirectionalObserver", "Observer\BidirectionalObserver\BidirectionalObserver.csproj", "{D5FF3912-8BF2-4D9E-B5FA-CDC9339C5CA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -431,6 +433,10 @@ Global
 		{029A45FA-5FC7-4986-9C4D-B78970EA2913}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{029A45FA-5FC7-4986-9C4D-B78970EA2913}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{029A45FA-5FC7-4986-9C4D-B78970EA2913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5FF3912-8BF2-4D9E-B5FA-CDC9339C5CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5FF3912-8BF2-4D9E-B5FA-CDC9339C5CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5FF3912-8BF2-4D9E-B5FA-CDC9339C5CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5FF3912-8BF2-4D9E-B5FA-CDC9339C5CA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -500,6 +506,7 @@ Global
 		{A6759244-2A22-452F-B056-728D8844EA28} = {FB6E7A58-8DBA-4C63-BC74-7A05C21EA55A}
 		{DFA4D56A-4CE6-4D25-BADE-2E00B49202D0} = {FB6E7A58-8DBA-4C63-BC74-7A05C21EA55A}
 		{029A45FA-5FC7-4986-9C4D-B78970EA2913} = {FB6E7A58-8DBA-4C63-BC74-7A05C21EA55A}
+		{D5FF3912-8BF2-4D9E-B5FA-CDC9339C5CA3} = {FB6E7A58-8DBA-4C63-BC74-7A05C21EA55A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
