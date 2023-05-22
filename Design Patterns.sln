@@ -113,53 +113,57 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeProxy-AoS-or-SoA",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeProxy-With-Array-Backed-Properties", "Proxy\CompositeProxy-With-Array-Backed-Properties\CompositeProxy-With-Array-Backed-Properties.csproj", "{3CB66C25-EE7A-4E45-ADF6-0AED586C87E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "Proxy\ViewModel\ViewModel.csproj", "{E38B4835-942F-4084-A5DD-824430FAA2DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewModel", "Proxy\ViewModel\ViewModel.csproj", "{E38B4835-942F-4084-A5DD-824430FAA2DF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chain of Responsibility", "Chain of Responsibility", "{F3759490-DD90-40CB-9534-529256B13C3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodChain", "Chain of Responsibility\MethodChain\MethodChain.csproj", "{03C19998-0B17-4D37-BE37-7009A2A8DE1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodChain", "Chain of Responsibility\MethodChain\MethodChain.csproj", "{03C19998-0B17-4D37-BE37-7009A2A8DE1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokerChain", "Chain of Responsibility\BrokerChain\BrokerChain.csproj", "{C7ADD191-1064-412E-A39F-B26247678B2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrokerChain", "Chain of Responsibility\BrokerChain\BrokerChain.csproj", "{C7ADD191-1064-412E-A39F-B26247678B2D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{E36DEC55-5A61-485C-9BF3-B9BB0ACF604F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "Command\CommandPattern\CommandPattern.csproj", "{0537DFE1-E264-4E8F-9632-5B7563EC5438}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "Command\CommandPattern\CommandPattern.csproj", "{0537DFE1-E264-4E8F-9632-5B7563EC5438}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndoOperations", "Command\UndoOperations\UndoOperations.csproj", "{7540B41F-45C2-4361-BFA7-159A1773B4D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UndoOperations", "Command\UndoOperations\UndoOperations.csproj", "{7540B41F-45C2-4361-BFA7-159A1773B4D2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interpreter", "Interpreter", "{939AB87B-AD3A-4EDB-82ED-B13E5CE1B326}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandmadeInterpreter-Lexing", "Interpreter\HandmadeInterpreter-Lexing\HandmadeInterpreter-Lexing.csproj", "{DAC8A296-1314-45B8-A288-73ACA1A18C77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandmadeInterpreter-Lexing", "Interpreter\HandmadeInterpreter-Lexing\HandmadeInterpreter-Lexing.csproj", "{DAC8A296-1314-45B8-A288-73ACA1A18C77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandmadeInterpreter-Parsing", "Interpreter\HandmadeInterpreter-Parsing\HandmadeInterpreter-Parsing.csproj", "{D5C99209-3D2D-42C4-B649-21AA0BE25A9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandmadeInterpreter-Parsing", "Interpreter\HandmadeInterpreter-Parsing\HandmadeInterpreter-Parsing.csproj", "{D5C99209-3D2D-42C4-B649-21AA0BE25A9A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Iterator", "Iterator", "{E73973E2-6CE5-4A27-8AD7-F787FEBE259D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorObject", "Iterator\IteratorObject\IteratorObject.csproj", "{2C927194-8F48-448E-A8D3-07E68A5DCAF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorObject", "Iterator\IteratorObject\IteratorObject.csproj", "{2C927194-8F48-448E-A8D3-07E68A5DCAF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorMethod", "Iterator\IteratorMethod\IteratorMethod.csproj", "{D513D1C9-844E-48DB-ACF1-5471F526899E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorMethod", "Iterator\IteratorMethod\IteratorMethod.csproj", "{D513D1C9-844E-48DB-ACF1-5471F526899E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array-BackedProperties", "Iterator\Array-BackedProperties\Array-BackedProperties.csproj", "{B6E875F5-C8F0-4DBA-851C-8328AADE789D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array-BackedProperties", "Iterator\Array-BackedProperties\Array-BackedProperties.csproj", "{B6E875F5-C8F0-4DBA-851C-8328AADE789D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreOrder", "Iterator\PreOrder\PreOrder.csproj", "{C58DD292-300A-4F34-A18D-C28E711A4412}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PreOrder", "Iterator\PreOrder\PreOrder.csproj", "{C58DD292-300A-4F34-A18D-C28E711A4412}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{6108DEEF-72C4-4DEB-8213-89017FFE23E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatRoom", "Mediator\ChatRoom\ChatRoom.csproj", "{1B891A52-85AF-42AF-A231-2A50F1933611}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatRoom", "Mediator\ChatRoom\ChatRoom.csproj", "{1B891A52-85AF-42AF-A231-2A50F1933611}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBroker", "Mediator\EventBroker\EventBroker.csproj", "{C3E8063C-1609-4050-95AC-957A543A8222}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBroker", "Mediator\EventBroker\EventBroker.csproj", "{C3E8063C-1609-4050-95AC-957A543A8222}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memento", "Memento", "{75A973A9-81E6-4EDF-B3ED-E2598F9B16CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoExample", "Memento\MementoExample\MementoExample.csproj", "{66845AA2-67A4-4D13-954E-EBC1815F9C8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoExample", "Memento\MementoExample\MementoExample.csproj", "{66845AA2-67A4-4D13-954E-EBC1815F9C8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndoAndRedo", "Memento\UndoAndRedo\UndoAndRedo.csproj", "{B1997C89-B7DE-4396-B67E-D79B016FE07D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UndoAndRedo", "Memento\UndoAndRedo\UndoAndRedo.csproj", "{B1997C89-B7DE-4396-B67E-D79B016FE07D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Null Object", "Null Object", "{397E0BE1-DE1C-43DA-8356-BF162AA40F54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObjectExample", "Null Object\NullObjectExample\NullObjectExample.csproj", "{D707598F-EC50-43ED-86AC-EAF0CBD6A130}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullObjectExample", "Null Object\NullObjectExample\NullObjectExample.csproj", "{D707598F-EC50-43ED-86AC-EAF0CBD6A130}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObjectSingleton", "Null Object\NullObjectSingleton\NullObjectSingleton.csproj", "{410D9A8F-93C4-45CD-AD15-5FE6CB9DA3F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullObjectSingleton", "Null Object\NullObjectSingleton\NullObjectSingleton.csproj", "{410D9A8F-93C4-45CD-AD15-5FE6CB9DA3F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{FB6E7A58-8DBA-4C63-BC74-7A05C21EA55A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventObserver", "Observer\EventObserver\EventObserver.csproj", "{A6759244-2A22-452F-B056-728D8844EA28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -411,6 +415,10 @@ Global
 		{410D9A8F-93C4-45CD-AD15-5FE6CB9DA3F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{410D9A8F-93C4-45CD-AD15-5FE6CB9DA3F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{410D9A8F-93C4-45CD-AD15-5FE6CB9DA3F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6759244-2A22-452F-B056-728D8844EA28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6759244-2A22-452F-B056-728D8844EA28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6759244-2A22-452F-B056-728D8844EA28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6759244-2A22-452F-B056-728D8844EA28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -477,6 +485,7 @@ Global
 		{B1997C89-B7DE-4396-B67E-D79B016FE07D} = {75A973A9-81E6-4EDF-B3ED-E2598F9B16CE}
 		{D707598F-EC50-43ED-86AC-EAF0CBD6A130} = {397E0BE1-DE1C-43DA-8356-BF162AA40F54}
 		{410D9A8F-93C4-45CD-AD15-5FE6CB9DA3F0} = {397E0BE1-DE1C-43DA-8356-BF162AA40F54}
+		{A6759244-2A22-452F-B056-728D8844EA28} = {FB6E7A58-8DBA-4C63-BC74-7A05C21EA55A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
