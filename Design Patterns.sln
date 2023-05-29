@@ -181,11 +181,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchExpressions", "State\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{A72FE080-DDAE-43F4-BDB5-8E8B1AFAEDE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicStrategy", "Strategy\DynamicStrategy\DynamicStrategy.csproj", "{828B5923-5382-48EE-B772-E14BCDA2A043}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicStrategy", "Strategy\DynamicStrategy\DynamicStrategy.csproj", "{828B5923-5382-48EE-B772-E14BCDA2A043}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticStrategy", "Strategy\StaticStrategy\StaticStrategy.csproj", "{5B336C95-2FDF-428D-99F0-5FCA2295AE0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticStrategy", "Strategy\StaticStrategy\StaticStrategy.csproj", "{5B336C95-2FDF-428D-99F0-5FCA2295AE0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualityAndComparisonStrategies", "Strategy\EqualityAndComparisonStrategies\EqualityAndComparisonStrategies.csproj", "{8EB4C86A-A65A-40F2-B934-E0D2BC99ADF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EqualityAndComparisonStrategies", "Strategy\EqualityAndComparisonStrategies\EqualityAndComparisonStrategies.csproj", "{8EB4C86A-A65A-40F2-B934-E0D2BC99ADF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template Method", "Template Method", "{E4581B8A-24BC-4EA9-9AA4-263F8747439B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "Template Method\TemplateMethod\TemplateMethod.csproj", "{6D44D307-7774-4ED8-9F0D-4FCE99D136FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -477,6 +481,10 @@ Global
 		{8EB4C86A-A65A-40F2-B934-E0D2BC99ADF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EB4C86A-A65A-40F2-B934-E0D2BC99ADF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EB4C86A-A65A-40F2-B934-E0D2BC99ADF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D44D307-7774-4ED8-9F0D-4FCE99D136FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D44D307-7774-4ED8-9F0D-4FCE99D136FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D44D307-7774-4ED8-9F0D-4FCE99D136FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D44D307-7774-4ED8-9F0D-4FCE99D136FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -553,6 +561,7 @@ Global
 		{828B5923-5382-48EE-B772-E14BCDA2A043} = {A72FE080-DDAE-43F4-BDB5-8E8B1AFAEDE0}
 		{5B336C95-2FDF-428D-99F0-5FCA2295AE0B} = {A72FE080-DDAE-43F4-BDB5-8E8B1AFAEDE0}
 		{8EB4C86A-A65A-40F2-B934-E0D2BC99ADF5} = {A72FE080-DDAE-43F4-BDB5-8E8B1AFAEDE0}
+		{6D44D307-7774-4ED8-9F0D-4FCE99D136FD} = {E4581B8A-24BC-4EA9-9AA4-263F8747439B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F612F8-C881-4C24-AA08-9373898BEE08}
