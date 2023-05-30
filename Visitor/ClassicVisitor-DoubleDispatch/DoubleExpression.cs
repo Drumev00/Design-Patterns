@@ -1,4 +1,4 @@
-﻿using System.Text;
+﻿using ClassicVisitor_DoubleDispatch.Abstractions;
 
 namespace ClassicVisitor_DoubleDispatch
 {
@@ -11,5 +11,14 @@ namespace ClassicVisitor_DoubleDispatch
 			Value = value;
 		}
 
+		public override void Accept(IExpressionVisitor visitor)
+		{
+			/*
+			 * double dispatch - allows to pass type information about whoever it is that I'm processing from
+			 * this method into the actual visitor
+			*/ 
+
+			visitor.Visit(this);
+		}
 	}
 }

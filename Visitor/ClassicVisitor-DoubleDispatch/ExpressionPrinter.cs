@@ -1,33 +1,28 @@
-﻿using System.Text;
+﻿using ClassicVisitor_DoubleDispatch.Abstractions;
+using System.Text;
 
 namespace ClassicVisitor_DoubleDispatch
 {
-	using DictType = Dictionary<Type, Action<Expression, StringBuilder>>;
-
-	internal static class ExpressionPrinter
+	internal class ExpressionPrinter : IExpressionVisitor
 	{
-		private static DictType actions = new DictType
+		private StringBuilder _sb = new StringBuilder();
+		public void Visit(DoubleExpression de)
 		{
-			[typeof(DoubleExpression)] = (ex, sb) =>
-			{
-				var de = (DoubleExpression)ex;
-				sb.Append(de.Value);
-			},
-			[typeof(AdditionExpression)] = (ex, sb) =>
-			{
-				var ae = (AdditionExpression)ex;
-				sb.Append("(");
-				Print(ae.Left, sb);
-				sb.Append("+");
-				Print(ae.Right, sb);
-				sb.Append(")");
-			}
-		};
-
-		public static void Print(Expression expression, StringBuilder sb)
-		{
-			actions[expression.GetType()](expression, sb);
+			_sb.Append(de.Value);
 		}
 
+		public void Visit(AdditionExpression ae)
+		{
+			_sb.Append("(");
+			ae.Left.Accept(this);
+			_sb.Append("+");
+			ae.Right.Accept(this);
+			_sb.Append(")");
+		}
+
+		public override string ToString()
+		{
+			return _sb.ToString();
+		}
 	}
 }
